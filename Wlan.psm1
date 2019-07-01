@@ -62,7 +62,7 @@ function Update-TrackedProgress {
     $Tracker.CurrentOperation = $CurrentOperation
     $Tracker.Status = $Status
     $Tracker.LastUpdateTime = (Get-Date)
-    $elapsed = (New-TimeSpan $Tracker.StartTime $Tracker.LastUpdateTime).TotalSeconds
+    $elapsed = $Tracker.Elapsed()
     $percent = 100 * $elapsed / [Math]::Max($elapsed, $Tracker.Total)
 
     $currentOperationParameter = if (![string]::IsNullOrEmpty($CurrentOperation)) { "-CurrentOperation ""$CurrentOperation""" } else { "" }
@@ -91,7 +91,7 @@ function Start-TrackedSleep {
 
     $sleepStart = Get-Date
     Update-TrackedProgress -Tracker $ProgressTracker -CurrentOperation $CurrentOperation
-    while ((New-TimeSpan $sleepStart $Tracker.LastUpdateTime).TotalSeconds -lt $Seconds) {
+    while ($Tracker.ElapsedSince($sleepStart) -lt $Seconds) {
         Update-TrackedProgress -Tracker $ProgressTracker -CurrentOperation $CurrentOperation
         Start-Sleep $UpdateInterval
     } 
