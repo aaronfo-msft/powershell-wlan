@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Get-Wlan",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "$run=\"Get-Wlan\"",
+            "args": [";Import-Module .\\Wlan.psm1 -Force; Invoke-Expression $run"],
+            "cwd": "${file}"
+        },
+        {
+            "name": "Get-Wlan -Scan",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "$run=\"Get-Wlan -Scan\"",
+            "args": [";Import-Module .\\Wlan.psm1 -Force; Invoke-Expression $run"],
+            "cwd": "${file}"
+        },
+        {
+            "name": "Get-Wlan -ScanWaitTime 0",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "$run=\"Get-Wlan -ScanWaitTime 0\"",
+            "args": [";Import-Module .\\Wlan.psm1 -Force; Invoke-Expression $run"],
+            "cwd": "${file}"
+        },
+        {
+            "name": "Connect-Wlan",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "$run=\"Connect-Wlan\"",
+            "args": [";Import-Module .\\Wlan.psm1 -Force; Invoke-Expression $run"],
+            "cwd": "${file}",
+        }
+    ]
+}

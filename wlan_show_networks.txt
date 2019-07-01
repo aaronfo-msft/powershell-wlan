@@ -1,0 +1,62 @@
+Interface name : Wi-Fi
+There are 3 networks currently visible.
+
+SSID {[int]SSID*:1} : {Name:Network1}
+    Network type            : {NetworkType:Infrastructure}
+    Authentication          : {Authentication:Open}
+    Encryption              : {Encryption:None}
+
+SSID {[int]SSID*:2} : {Name:Another-Network}
+    Network type            : {NetworkType:Infrastructure}
+    Authentication          : {Authentication:WPA2-Personal}
+    Encryption              : {Encryption:CCMP}
+
+SSID {[int]SSID*:3} : {Name:The Third Network}
+    Network type            : {NetworkType:Infrastructure}
+    Authentication          : {Authentication:WPA2-Enterprise}
+    Encryption              : {Encryption:Wep}
+
+SSID {[int]SSID*:11} : {Name:Double-Digit-SSID}
+    Network type            : {NetworkType:Infrastructure}
+    Authentication          : {Authentication:WPA2-Enterprise}
+    Encryption              : {Encryption:None}
+
+SSID {SSID*:2} : {Name:Underscores_5GHz_B3B0}
+    Network type            : Infrastructure
+    Authentication          : {Authentication:WPA2-Personal}
+    Encryption              : {Encryption:WEP}
+
+SSID {SSID*:3} : {Name:lowercase}
+    Network type            : Infrastructure
+    Authentication          : {Authentication:WPA2-Personal}
+    Encryption              : {Encryption:None}
+
+SSID {SSID*:6} : {Name:Enrique's Wi-Fi Network}
+    Network type            : Infrastructure
+    Authentication          : {Authentication:WPA2-Personal}
+    Encryption              : {Encryption:CCMP}
+
+SSID {[int]SSID*:1} :
+    {!Name:Network type            : Infrastructure}
+    Authentication          : Authentication:Open
+    Encryption              : Encryption:WEP
+
+# BEGIN FlashExtractProgram version=1
+# H4sIAAAAAAAEAO1YaW/aQBD9Xqn/wUVRBbmMAyQhdYjIJUWiCMWokYqpZMg2WDG2s7tugxL+e2d9
+# LAs+OELyoQIkjvXO7OzMe2/HVlvYcRGmJiLSwCCD05xSrR5VDstHR5Vc7fMnNbw+kmxjiE5z2HHo
+# vqbdXPoXNfTkIbuPYNIDNoYSGQ17jnWaayo5ifQdDAbHB9VSTqqpTcemCA9N27Cazj3iU7fYXOxZ
+# MLVh2oh8N1zmWpLSLdrcQjPtBwsxO83rEYrhb2CcZa5x81v0ENgpkRXY/TCwafQsNB0lASPZj0uC
+# l9owYTOzO8ETLzAFnHuWga+eXYwIMR1btJcFB2/zyq39uNrOI7LDUjW9YQ9hXgilCHUwiRaW6Ldh
+# EZSrqV86F5f1dr3TKe5Vuzt5fdf/8VIaF7bz+n4wWjjrdmuq7DsX1lPl2B75VXV9O1wxb4/C5hQ/
+# /njOVXkGln78KaMzUycIbmgRgm8AFdemBZ8RFJKRcmOblM0VQswXdyWlkBZn6trXfG2fPdOLZ7Hg
+# /DwKWqMGpuTOpIMoaB9KKTwoizxYiAlJXOA4YUvBBBG39UZDuqi3YGOhhCjFgyzk6u5Lwxvng6/C
+# TiJUYYkMsLKrcXCw0Zm887DTxane4Hl1LZP6VVkgr3/EtKatmzyeNBofU+UZsYa9qHKk7uxP9DuU
+# DybyGsVen+43QfrZHlSusjHBhwqF1SodHB5mCz7MDQS/5RCTgjK2DDMkTIr68uyk570VOQVNAr9B
+# pFHi57mFUs9UesLu21vBM3qexOoDV4DNxISz358SE8kVBW2OV47NGKHuHHxP5HuHEnkwcgfIJrxY
+# 8w6Fvf2AVuzTGneTyZVFrSRixcHJznuoQWIy5+t4sr/0im6gEuSb5RyyLmovkytJQ66BDepgASbH
+# WQrcAXj8JGOddrfzeR0XznT79dfrVnCavbVrSK7uetESXwPkMuooQ61bRi8R/evgx/bIXVw2y+XS
+# orLJIwvkLR3ovDcACVpaEBPJKGhQRoObSPrl/QmKNgXSuuUODNsbImz2BYhCZ5LR3k4rmd/sJnQK
+# 6VL2znv6COKJRP/65Dn0G+N/3aNwJFCzb7CjmI0ErxMpmMMzXCmKCYbOQLx90KXgPe0tGhW/T3Tp
+# nRK/2kmxZu5PJ2DhrmlD/1ibtKF/Timu8dxNpv+V3ccjd5r6TABWo//Em0j52d//uQRMkrA4/SsV
+# uCvKekrGb5o2p//m9A8f2S3Vdov0f/duYx191Ace59FzEHgKXvsHrRaBPBIXAAA=
+# END FlashExtractProgram
